@@ -1,4 +1,4 @@
-public class Main {
+п»їpublic class Main {
     public static void main(String[] args) {
 
         int[] array = {2,3,4,5,6,7,8,9,10};
@@ -8,12 +8,12 @@ public class Main {
             product *= array[i];
         }
 
-//        Вариант 2:
+//        Р’Р°СЂРёР°РЅС‚ 2:
 //        for (int j : array) {
 //            product *= j;
 //        }
         
-        System.out.println("Произведение элементов массива равно " + product);
+        System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° СЂР°РІРЅРѕ " + product);
 
     }
 }
